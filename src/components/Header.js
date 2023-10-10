@@ -8,7 +8,7 @@ function Header() {
 
   return (
     <header className='bg-sky-900'>
-      <nav className={`container mx-auto flex items-center xl:px-24 lg:px-10 px-5 ${id === 'profile'? 'justify-between py-12':''}`}>
+      <nav className={`container mx-auto flex items-center xl:px-24 lg:px-10 px-5 ${id === 'profile'? 'justify-between py-12 lg:gap-5':''}`}>
         <div className='xl:px-5'>
             <h1 className='text-4xl font-semibold text-red-600'>LOGO</h1>
         </div>
